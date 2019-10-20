@@ -1,0 +1,115 @@
+﻿body {
+    font: normal 12px Arial;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+*{box-sizing: border-box}
+
+a {text-decoration: none;color:#333}
+a:hover{color:#f75d75}
+
+.container{padding:0 20px}
+
+/*Mot so class phổ biến*/
+.fr{float:left}
+.fr{float: right}
+.cb{clear:both}
+
+/*Phần header*/
+#header {height: 170px;overflow: hidden}
+#header .logo {float: left;line-height:170px}
+#header .logo img{padding-top:10px; width:400px; max-height:150px}
+#header .accountMenu {float: right;line-height: 80px}
+
+/*Menu chính*/
+.MenuChinh{background: #0026ff}
+.MenuChinh ul,
+.MenuChinh li{list-style:none;margin:0;padding:0}
+.MenuChinh li{display:inline-block}
+.MenuChinh li a{display: inline-block; padding:10px 15px;color:#fff;font-weight:bold}
+.MenuChinh li a.current,
+.MenuChinh li a:hover{background:#0094ff}
+
+/*Css cột trái, cột phải cua trang admin*/
+.cotTrai {float: left;width: 15%;box-sizing: border-box;border: solid 1px #dfdfdf;min-height: 500px}
+.cotPhai {float: right;width: 83%;box-sizing: border-box;border: solid 1px #dfdfdf;min-height:500px}
+/*
+    Css cho menu quan ly SP*/
+.cotTrai .head{background:#0094ff;color:#dfdfdf;padding:10px;font-weight:bold;border-top:solid 1px #dfdfdf; border-bottom:solid 1px #dfdfdf}
+.cotTrai .head:first-child{border-top:none}
+.cotTrai ul li{padding:5px 0}
+.cotTrai ul li a.current,
+.cotTrai ul li a:hover{color:red}
+
+.MenuThaoTac {padding: 10px; font-weight: bold; border-top: solid 1px #dfdfdf;border-bottom: solid 1px #dfdfdf}
+.MenuThaoTac ul,
+.MenuThaoTac li {list-style: none;margin: 0;padding: 0}
+.MenuThaoTac li {display: inline-block}
+.MenuThaoTac li a {display: inline-block;padding:5px 30px;font-weight:bold}
+.MenuThaoTac li a.Add{background:url(add.jpg) no-repeat top left;color:blue}
+.MenuThaoTac li a.Update{background:url(update.jpg) no-repeat top left;color:blue}
+.MenuThaoTac li a.Delete{background:url(delete.jpg) no-repeat top left;color:blue}
+.MenuThaoTac li a:hover {background: #0094ff;color:#dfdfdf}
+
+
+.cotPhai .head {
+    font: 20px bold;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    border-top: solid 1px #dfdfdf;
+    border-bottom: solid 1px #dfdfdf
+}
+.cotPhai .head:first-child {
+    border-top: none
+}
+
+/*Css cho khung thêm mới*/
+.FormThemMoi {padding:15px}
+.thongTin{overflow:hidden;padding-bottom:10px}
+.tenTruong {
+    float: left;
+    width: 20%;
+    font: 18px bold;
+}
+.cNhap{float:right;width:80%}
+
+.FormThemMoi input[type = text],
+.FormThemMoi input[type = password],
+.FormThemMoi select{border:solid 1px #dfdfdf; padding:5px; width:30%}
+.FormThemMoi .btnThemMoi,
+.FormThemMoi .btnHuy{border:0;background:#0026ff;cursor:pointer;padding:10px 20px;color:#dfdfdf;font-weight:bold}
+.FormThemMoi .btnHuy{background:#808080;margin-left:15px}
+.FormThemMoi .thongBaoThanhCong{color:red;font:16px bold;padding-bottom:20px}
+.FormThemMoi .Anh{max-width:150px;min-height:120px}
+
+/*Css trang hiển thị danh sách*/
+.FormDanhSach{padding:10px}
+table.Danhsach{width:100%;border-collapse:collapse;border:solid 1px #dfdfdf}
+table.Danhsach th,
+table.Danhsach td{border:solid 1px #dfdfdf;padding:5px}
+table.Danhsach th{background:#0094ff;color:#dfdfdf}
+table.Danhsach .CotMaSP{width:70px;text-align:center}
+table.Danhsach .CotMaDM {width: 70px;text-align:center}
+table.Danhsach .CotGia {width: 100px;text-align:center}
+table.Danhsach .CotAnh {width: 150px;text-align:center}
+table.Danhsach .CotCongCu {width: 150px;text-align:center}
+table.Danhsach .CotCongCu a{display:inline-block;width:24px;height:24px;background-position:center;background-repeat:no-repeat;padding:5px;color:blue}
+table.Danhsach .CotCongCu a.Them{background-image:url(add.jpg)}
+table.Danhsach .CotCongCu a.Sua{background-image:url(update.jpg)}
+table.Danhsach .CotCongCu a.Xoa{background-image:url(delete.jpg)}
+
+table.Danhsach .CotAnh{position:relative;z-index:1}
+table.Danhsach .CotAnh .AnhSP{max-width:80px;max-height:80px}
+table.Danhsach .CotAnh .AnhSPHover{max-width:200px;max-height:200px;display:none;position:absolute;z-index:1;top:-80px;left:120px}
+table.Danhsach .CotAnh:hover .AnhSPHover{display:inline-block}
+
+/*Css cho bang hien thi tai khoan*/
+table.Danhsach .CotTenDangNhap{width:120px}
+table.Danhsach .CotEmail {width: 150px;text-align:center}
+table.Danhsach .CotDiaChi {text-align:center}
+table.Danhsach .CotTenDayDu {width: 120px;text-align:center}
+table.Danhsach .CotNgaySinh {width: 120px;text-align:center}
+table.Danhsach .CotGioiTinh {width: 30px;text-align:center}
+table.Danhsach .CotQuyenDN {width: 20px;text-align:center}

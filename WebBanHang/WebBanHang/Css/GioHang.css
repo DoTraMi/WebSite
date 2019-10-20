@@ -1,0 +1,44 @@
+﻿.model-head{padding:20px 0;text-align:center;position:relative;border-bottom:solid 1px #0026ff;min-height:16px;padding:15px}
+.model-title{text-transform:uppercase;margin:0;line-height:1.4}
+.model-head .btnClose{margin-top:-15px}
+.btnClose:hover,
+.btnClose:focus,
+.btnClose{opacity:1}
+.btnClose{float:right;font-size:16px;font-weight:700;line-height:1;color:#000;text-shadow:0 1px 0 #fff;
+          filter:alpha(opacity=20);opacity:0.2}
+/*input, button, select, textarea{font-family:inherit;font-size:inherit;line-height:inherit}*/
+.model-head a{position:absolute;top:17px;padding:7px 6px;right:7px;text-align:center;line-height:0;border-radius:50%}
+
+.model-body{position:relative;padding:10px}
+
+#cart-table th{padding-bottom:10px;padding-top:10px;font-size:16px;color:#0026ff;font-weight:600;text-align:center}
+#cart-table tr td:first-child,
+#cart-table tr th:first-child{padding-left:0}
+#cart-table tr td,
+#cart-table tr th{padding:10px;text-align:center}
+#cart-table tr td{border-top:1px solid #0026ff}
+
+.item-image img{max-width:150px; max-height:155px}
+.item-title{width:25%;font-size:15px;overflow:hidden;white-space:nowrap;margin-left:5px}
+.item-title a{text-decoration:none;outline:none;color:#000}
+.item-price{font-size:15px;width:22%;margin-left:5px}
+.delete-item a{color:#000;top:0;margin:auto;height:15px;right:0;top:0;bottom:0;display:block;width:15%;margin-left:5px}
+.delete-item a:hover{color:red}
+.item-quatity{width:25%;font-size:15px;margin-left:5px}
+
+.model-footer{padding-top:20px}
+.titlethongbao{padding-left:30px;padding-bottom:10px;color:blue;font-size:16px;font-weight:bold}
+.titlehuongdan{padding-left:30px;padding-bottom:20px;font-size:13px;color:red;line-height:20px}
+.row{overflow:hidden;padding-left:30px}
+.col-lg,
+.col-lg-left{float:left;padding-right:10px;padding-bottom:10px}
+.col-lg-right{float:right;padding:15px;background:#0094ff;margin-right:20px}
+
+.comeback a{color:#0026ff;font-size:18px;padding:10px}
+.comeback a:hover{color:red}
+.model-title-note{font-size:15px;width:80px}
+.model-note input[type=text]{padding:5px;font-size:14px;width:450px}
+.total-price-model{font-size:15px;float:right;padding:10px;margin-right:15px;margin-bottom:15px}
+
+.btndefault{background:#0094ff;color:#fff;padding:10px;font-size:18px}
+.btn-model-cart{float:left;text-align:center}

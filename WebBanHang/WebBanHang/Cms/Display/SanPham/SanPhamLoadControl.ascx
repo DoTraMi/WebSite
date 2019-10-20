@@ -1,0 +1,2 @@
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeFile="SanPhamLoadControl.ascx.cs" Inherits="Cms_Display_SanPham_SanPhamLoadControl" %> 
+<asp:PlaceHolder ID="PlModulSPLoadControl" runat="server"></asp:PlaceHolder>

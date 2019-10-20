@@ -1,0 +1,15 @@
+﻿/*Css cho khung thêm mới*/
+.head{padding:10px;color:#0026ff;border-bottom:1px solid #0026ff;font-size:18px}
+.FormDangNhap {padding:15px;border:solid 1px #0026ff;margin-top:20px}
+.thongTin{overflow:hidden;padding-bottom:10px}
+.tenTruong {
+    float: left;
+    width: 15%;
+    font: 18px bold;
+}
+.cNhap{float:left;width:73%}
+
+.FormDangNhap input[type = text],
+.FormDangNhap input[type = password]{border:solid 1px #dfdfdf; padding:7px;width:40%}
+.FormDangNhap .btnDangNhap{border:0;background:#0026ff;cursor:pointer;padding:15px;color:#dfdfdf;font-weight:bold;font-size:16px;display:inline-block}
+
